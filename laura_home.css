@@ -1,0 +1,72 @@
+/*@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+*/
+body {
+   
+    background-image: url("http://localhost/images/vintage.jpg");
+}
+
+.carousel {
+    background-color: black;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.titre {
+    color: blanchedalmond;
+    text-align: center;
+    font-family: 'Ubuntu+Condensed';
+    font-size: 1.5em;
+}
+
+.affiche {
+    width: 300px;
+    margin :0 auto;
+}
+
+#formulaire {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF;
+    width: 800px;
+    font-family: 'Century Gothic';
+    padding-top: 200px;
+    padding-bottom: 400px;
+}
+.fondform {
+background-image: url('images/movie-theater.jpg');
+background-size: cover;
+}
+#formulaire input {
+    background-color: rgba(232, 48, 48, 0.56);
+    color: #FFF;
+}
+#formulaire * {
+    font-family: 'Century Gothic';
+}
+#formulaire h1 {
+    padding-bottom: 50px;
+}
+
+footer{
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.groupe {
+    color : whitesmoke;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+  justify-content: center;
+}
+
+.logo_acs{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
